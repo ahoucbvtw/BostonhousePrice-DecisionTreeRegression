@@ -14,3 +14,28 @@
 -   B : 1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town
 -   LSTAT : % Lower status of the population
 ```
+
+## Load and Check all the data's correlation
+As we can see the table and Heatmap below.
+
+We can use this heatmap to find witch variables are the Positive correlation in Boston house price.
+
+![alt text](https://raw.githubusercontent.com/ahoucbvtw/BostonhousePrice-DecisionTreeRegression/main/Picture/HeatmapTable.jpg "HeatmapTable")
+
+![alt text](https://raw.githubusercontent.com/ahoucbvtw/BostonhousePrice-DecisionTreeRegression/main/Picture/Heatmap.png "Heatmap")
+
+
+## Train
+First, use sklearn's function **train_test_split** to split train and test data.
+
+Then use DecisionTree to train, to do regression analysis for the house price.
+
+![alt text](https://raw.githubusercontent.com/ahoucbvtw/BostonhousePrice-DecisionTreeRegression/main/Picture/DecisionTree.jpg "DecisionTree")
+
+
+## Verification & Result
+In test data, we used r² points to represent our regression model was the OK model.
+
+```
+r² points =  0.8096585156043419 
+```
